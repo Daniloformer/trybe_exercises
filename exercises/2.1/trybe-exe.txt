@@ -2,4 +2,7 @@ O que eu vou aprender na Trybe:
 
 - Unix
 - Bash
-- GitEste é mais um teste
+- Git
+- HTML
+- JavaScript
+- Python
