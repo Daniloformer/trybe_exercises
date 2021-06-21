@@ -1,0 +1,16 @@
+h1 {
+    color: blue;
+    
+}
+p {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+li:hover {
+    background-color: blueviolet;
+}
+li:active {
+    color: crimson;
+}
