@@ -72,15 +72,23 @@
 // exercício 8
 //Utilizando o array criado no exercício anterior imprima o resultado da divisão de cada um dos elementos por 2 
 
-let array = [];
-for (let i = 0; i < 25; i += 1) {
-    array.push(i)   
-} 
-console.log(array)
+// let array = [];
+// for (let i = 0; i < 25; i += 1) {
+//     array.push(i)   
+// } 
+// console.log(array)
 
-for (let i = 0; i < array.length; i++) {
-    let element = array[i];
-   let elementDivididoPorDois = element /2
-console.log(elementDivididoPorDois)   
-}
+// for (let i = 0; i < array.length; i++) {
+//     let element = array[i];
+//    let elementDivididoPorDois = element /2
+// console.log(elementDivididoPorDois)   
+// }
     
+let jonathanOn = [1,1,1,1,1,1,1,1]
+
+let vezesOnLine = 0
+for (let index = 0; index < jonathanOn.length; index += 1) {
+    let soma = jonathanOn[index];
+    vezesOnLine = vezesOnLine + soma
+} 
+console.log(vezesOnLine)
